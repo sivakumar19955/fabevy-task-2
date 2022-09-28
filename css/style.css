@@ -1,0 +1,395 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body{
+      background-color:#f5f5f5;
+      font-family:arial ,sherif;
+}
+.resume{
+	 width:1140px;
+         margin:0 auto;
+          background-color:#fff;
+          padding:20px 20px;
+}
+.img{
+     display:flex;
+     align-items: center;
+}
+.detail2 ul{
+           list-style:none;
+}
+.detail2 h1{
+            list-style:none;
+            border-bottom: solid 2px black;
+            padding:5px;
+            margin-bottom:5px;
+}
+.detail2 a{
+           color:black;
+           text-decoration:none;
+}
+.detail2 .dt ul{
+                list-style:none;
+}
+.detail2 .dt ul li{
+                    display:inline-block;
+                    margin:0 16px;
+}
+.detail2 .dt ul li:nth-child(1){
+                                 margin-left:0px;
+}
+.detail2{
+         width: 100%;
+         margin-left: 19px;
+}
+.detail1 img{
+             width:103px;
+			  height:103px;
+}
+.dt a{
+      color:#ccc;
+}
+.dt{ 
+      padding:5px;
+}
+.dt a.active{
+             color:black;
+}
+.dt a:hover{
+            color:red;
+}
+/background/
+.background bg{
+            background-color:black;
+            height:244px;
+            padding:67px;
+            text-align:center;
+ 
+}
+.img{
+     margin-left:18px;
+}
+.bg{
+     color:white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.detail h1{
+            margin-left:10px;
+            border-bottom:2px solid;
+}
+.bg h1{ 
+       font-size:16px;
+       color:#ccc;
+}
+.bg h2{
+        font-size:31px;
+        padding:10px;
+}
+.bg h3{
+       font-size:20px;
+       color:#ccc;
+       padding:2px;
+}
+.bg button{
+           margin-top:5px;
+           border:solid 1px #ccc;
+           background-color:black;
+           color:white; 
+           padding: 6px;
+}
+
+.bg button a{
+              text-decoration:none;
+              color:#fff;
+}
+.sk{
+    border-top:solid 2px black;
+    margin-top: 28px;
+}
+.sk h4{
+        font-size:27px;
+        margin-left:10px;
+        margin-top:42px;
+}
+.sk .sk1{
+         display:flex;
+         margin-top:10px;
+         justify-content: flex-start;
+}
+.sk .sk1 img{
+             width:34px;
+             height:auto;
+             margin-right:7px;
+             padding-left:13px;
+}
+.sk h4{ 
+       margin-top:20px;
+}
+.sk2 ul{
+         line-style:none;
+}
+.sk .sk2 ul li{
+                display:inline-block;
+                margin:15px 24px;
+}
+.edu{
+     border-top:solid 2px black;
+     margin: 30px 5px;
+}
+.edu h2{
+         margin-top: 15px;
+}
+.edu .edu1{
+           display:flex;
+           margin-top:10px;
+           justify-content: flex-start;
+}
+.edu .edu1 img{
+               width:34px;
+               height:30px;
+               margin-right:7px;
+               padding-left:13px;
+}
+.clg{
+     display:flex;
+     align-items:center;
+     justify-content:space-between;
+}
+.clg .clg1{
+           border-left: solid 3px #ccc;
+           margin-top:5px;
+}
+.clg .clg1 h1{
+               font-size:10px;
+               padding:11px 14px;
+               color:#ccc;
+}
+.clg .clg1 h2{
+               font-size:14px;
+               padding:1px 14px;
+}
+.clg .clg1 h3{
+              font-size:25px;
+              padding:6px 14px;
+}
+.clg .clg1 h4{
+              font-size:16px;
+              padding:2px 14px;
+               color:#ccc;
+}
+.clg .clg2 p {
+              text-align: center;
+              border: solid 1px #a6a9ab;
+              background-color: #a6a9ab;
+              padding: 15px;
+}
+.clg2{
+      margin-right:130px;
+}
+
+.hsc{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.hsc .hsc1{
+           border-left: solid 3px #ccc;
+           margin-top:5px;
+}
+.hsc .hsc1 h1{
+              font-size:10px;
+              padding:11px 14px;
+              color:#ccc;
+}
+.hsc .hsc1 h2{
+              font-size:14px;
+              padding:1px 14px;
+}
+.hsc .hsc1 h3{
+              font-size:25px;
+              padding:6px 14px;
+}
+.hsc .hsc1 h4{
+               font-size:16px;
+               padding:2px 14px;
+               color:#ccc;
+}
+.hsc .hsc2 p{
+            text-align: center;
+            border: solid 1px #a6a9ab;
+            background-color: #a6a9ab;
+            padding: 15px;
+}
+.hsc2{
+      margin-right:130px;
+}
+.sslc{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;       
+}
+.sslc .sslc1{
+             border-left: solid 3px #ccc;
+              margin-top:5px;
+} 
+.sslc .sslc1 h1{
+                font-size:10px;
+                padding:11px 14px;
+                color:#ccc;
+}
+.sslc .sslc1 h2{
+                font-size:14px;
+                padding:1px 14px;
+}
+.sslc .sslc1 h3{
+                font-size:25px;
+                padding:6px 14px;
+}
+.sslc .sslc1 h4{
+                font-size:16px;
+                padding:2px 14px;
+                color:#ccc;
+}
+.sslc .sslc2 p {
+                text-align: center;
+                border: solid 1px #a6a9ab;
+                background-color: #a6a9ab;
+                padding: 15px;
+}
+.sslc2{
+       margin-right:130px;
+}
+.project{
+         border-top:solid 2px;
+}
+.project{
+         margin-top:24px;
+}
+.project h1{
+            font-size:35px;
+            margin-top:15px;
+}
+.project .project1{
+                   display:flex;
+                   margin-top:10px;
+                   margin-bottom:26px;
+}
+.project .project1 img{
+                       width:34px;
+                       height:30px;
+                       margin-right:7px;
+                       padding-left:13px;
+}
+.project .project1 p{
+                     font-size:13px;
+}
+
+.fp .fp1{
+          border-left:solid 2px #ccc;
+         margin-top:10px;
+}
+.fp .fp1 h1{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp1 h2{
+            font-size:26px; 
+            padding:10px;
+}
+.fp .fp1 h3{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp1 h4{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp1 h5{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp2{
+          border-left:solid 2px #ccc;
+          margin-top:10px;
+}
+.fp .fp2 h1{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp2 h2{
+            font-size:26px; 
+            padding:10px;
+}
+.fp .fp2 h3{
+            font-size:14px; 
+             color:#ccc;
+            padding:10px;
+}
+.fp .fp2 h4{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp2 h5{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp3{
+         border-left:solid 2px #ccc;
+         margin-top:10px;
+}
+.fp .fp3 h1{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp3 h2{
+            font-size:26px; 
+            padding:10px;
+}
+.fp .fp3 h3{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp3 h4{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+.fp .fp3 h5{
+            font-size:14px; 
+            color:#ccc;
+            padding:10px;
+}
+
+.cnt h1{
+         font-size:30px;
+         margin-top:10px;
+}
+.cnt p{
+       font-size:15px;
+}
+.cnt .cnt1 img{
+               padding:10px;
+               margin-top:13px;
+               margin-left:12px;
+}
+.lnk {
+       color:black;
+        text-decoration:none;
+}
+a:hover{
+        color:red;
+}
